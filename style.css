@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: rgb(2, 5, 2);
+
+}
+.h1{
+    color: rgb(239, 237, 237);
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.brands{   
+    display:flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.app{
+    margin-bottom: 10px;
+    text-align: center;
+
+
+} 
+.container{
+    background-color: rgb(7, 1, 1);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    
+}
+.features h3{
+    font-size:1.5rem;
+    color:rgb(20, 4, 4);
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+.features p{
+    
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:rgb(239, 231, 231);
+    margin-bottom: 10px;
+}
+.features ul{
+    margin-top: 0px;
+}
+.features ul li{
+    display: flex;
+    align-items: flex;
+    font-size: 1rem;
+    margin-bottom: 0px;
+    background-color: white;
+    color: black;
+    
+}
+.features ul li img{
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    margin-bottom: 1rem;
+
+
+    
+}
+.Left-Section{
+    width: 60%;
+
+}
+.right-section{
+    width: 35%;
+    text-align: center;
+    
+}
+.man-image {
+      width: 100%;
+      margin-bottom: 20px;
+}
+
+.features{
+    background-color: rgb(221, 230, 225);
+    border-radius: 5px;
+}
+#footer{
+    color: blue;
+
+}
+
+.register-form h2{
+    text-align: center;
+    color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+    
+    
+
+
+.register-form form{
+    max-width: 50em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+    
+    
+}
+.register-form form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.register-form form .input-box input ,
+.register-form form textarea{
+    width: 100%;
+    padding: 1.5em;
+    font-size: 18px;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 0.8rem;
+    margin: 1rem 0;
+    resize: none;
+}
+.container .Left-Section .btn{
+    background-color: rgba(202, 67, 67, 0.514);
+    color: rgb(240, 236, 236);
+    padding: 15px 28px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+    min-height: fit-content;
+    text-align: center;
+    justify-content: center;
+}
+.container .Left-Section .btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.register-form .btn{
+    background-color: rgba(202, 67, 67, 0.514);
+    color: rgb(240, 236, 236);
+    padding: 15px 28px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    
+    cursor: pointer;
+    min-height: fit-content;
+    text-align: center;
+    justify-content: center;
+    border-top: 10px;
+    margin-top: 10px;
+    
+}
+.register-form .btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.container1{
+    height: 30px;
+    width: 100%;
+}
+nav {
+    background-color:;
+    padding: 10px;
+    position: sticky;
+    top: 0%;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color:white;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  .nav-class {
+    margin-left: 20px;
+  }
+  
+  .nav-class a:hover {
+    text-decoration: underline;
+    color: red;
+    font-weight: bold;
+    background-color: brown;
+    padding: 8px 12px;
+    border-radius: 10px;
+  }
+    
+
+
+
+
+
+
+    
+    
